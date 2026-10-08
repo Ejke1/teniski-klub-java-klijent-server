@@ -1,0 +1,18 @@
+# Fajlovi koje Git NE salje na GitHub.
+
+# Lozinka za Gmail - ostaje samo na ovom racunaru
+mailconfig.properties
+
+# NetBeans ih sam pravi pri svakom pokretanju
+build/
+dist/
+**/nbproject/private/
+
+# Dnevnici (imaju mejl adrese clanova)
+*.log
+
+# Rezervne kopije - Git sam cuva istoriju izmena
+_backup_*/
+
+# Word dokumenti (dokumentacija) - ostaju samo na ovom racunaru
+*.docx
